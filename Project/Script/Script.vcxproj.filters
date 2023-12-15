@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CScriptMgr.h" />
+    <ClInclude Include="CCameraMoveScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissileScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneSaveLoad.h" />
+    <ClInclude Include="CMonsterScript.h">
+      <Filter>Script\MonsterScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerScript.h">
+      <Filter>Script\PlayerScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerStateScript.h">
+      <Filter>Script\PlayerScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CMon_Booklets.h">
+      <Filter>Script\MonsterScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CMon_Bullats.h">
+      <Filter>Script\MonsterScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CMon_Maiden.h">
+      <Filter>Script\MonsterScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CMon_Cubulon.h">
+      <Filter>Script\MonsterScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CMon_Gigi.h">
+      <Filter>Script\MonsterScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CMon_Kin.h">
+      <Filter>Script\MonsterScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CHandScript.h">
+      <Filter>Script\PlayerScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CM_Bullet.h">
+      <Filter>Script\BulletScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagnumScript.h">
+      <Filter>Script\GunScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CAKScript.h">
+      <Filter>Script\GunScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CP_Bullet.h">
+      <Filter>Script\BulletScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CMaiden_Bullet.h">
+      <Filter>Script\BulletScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CWallScript.h">
+      <Filter>Script\Item,WallScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CTableScript.h">
+      <Filter>Script\Item,WallScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CMovementScript.h">
+      <Filter>Script\MovementScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CDoorScript.h">
+      <Filter>Script\Item,WallScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CChestScript.h">
+      <Filter>Script\Item,WallScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CAStarScript.h">
+      <Filter>Script\AStarScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossScript.h">
+      <Filter>Script\BossScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkull_Bullet.h">
+      <Filter>Script\BulletScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBarrier_Bullet.h">
+      <Filter>Script\BulletScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss_Bullet.h">
+      <Filter>Script\BulletScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CHeadGunScript.h">
+      <Filter>Script\BossScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CLampsScript.h">
+      <Filter>Script\Item,WallScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobeScript.h">
+      <Filter>Script\Item,WallScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBarrelScript.h">
+      <Filter>Script\Item,WallScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CHeartScript.h">
+      <Filter>Script\UIScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlankBulletScript.h">
+      <Filter>Script\UIScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CIceGunScript.h">
+      <Filter>Script\GunScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CRoomEvent_1.h">
+      <Filter>Script\EventScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CRoomEvent_3.h">
+      <Filter>Script\EventScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CRoomEvent_2.h">
+      <Filter>Script\EventScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CIce_Bullet.h">
+      <Filter>Script\BulletScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CRoomEvent_4.h">
+      <Filter>Script\EventScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossRoomEvent.h">
+      <Filter>Script\EventScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlankBulletEffect.h">
+      <Filter>Script\EffectImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CMaidenDead.h">
+      <Filter>Script\EffectImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticleScript.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Script.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CScriptMgr.cpp" />
+    <ClCompile Include="CCameraMoveScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissileScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneSaveLoad.cpp" />
+    <ClCompile Include="CMonsterScript.cpp">
+      <Filter>Script\MonsterScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerScript.cpp">
+      <Filter>Script\PlayerScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerStateScript.cpp">
+      <Filter>Script\PlayerScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CMon_Booklets.cpp">
+      <Filter>Script\MonsterScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CMon_Bullats.cpp">
+      <Filter>Script\MonsterScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CMon_Maiden.cpp">
+      <Filter>Script\MonsterScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CMon_Cubulon.cpp">
+      <Filter>Script\MonsterScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CMon_Gigi.cpp">
+      <Filter>Script\MonsterScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CMon_Kin.cpp">
+      <Filter>Script\MonsterScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CHandScript.cpp">
+      <Filter>Script\PlayerScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CM_Bullet.cpp">
+      <Filter>Script\BulletScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagnumScript.cpp">
+      <Filter>Script\GunScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CAKScript.cpp">
+      <Filter>Script\GunScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CP_Bullet.cpp">
+      <Filter>Script\BulletScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CMaiden_Bullet.cpp">
+      <Filter>Script\BulletScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CWallScript.cpp">
+      <Filter>Script\Item,WallScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CTableScript.cpp">
+      <Filter>Script\Item,WallScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CMovementScript.cpp">
+      <Filter>Script\MovementScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CDoorScript.cpp">
+      <Filter>Script\Item,WallScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CChestScript.cpp">
+      <Filter>Script\Item,WallScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CAStarScript.cpp">
+      <Filter>Script\AStarScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossScript.cpp">
+      <Filter>Script\BossScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkull_Bullet.cpp">
+      <Filter>Script\BulletScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBarrier_Bullet.cpp">
+      <Filter>Script\BulletScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss_Bullet.cpp">
+      <Filter>Script\BulletScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CHeadGunScript.cpp">
+      <Filter>Script\BossScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CLampsScript.cpp">
+      <Filter>Script\Item,WallScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBarrelScript.cpp">
+      <Filter>Script\Item,WallScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CGlobeScript.cpp">
+      <Filter>Script\Item,WallScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlankBulletScript.cpp">
+      <Filter>Script\UIScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CHeartScript.cpp">
+      <Filter>Script\UIScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CIceGunScript.cpp">
+      <Filter>Script\GunScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CRoomEvent_1.cpp">
+      <Filter>Script\EventScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CRoomEvent_3.cpp">
+      <Filter>Script\EventScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CRoomEvent_2.cpp">
+      <Filter>Script\EventScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CIce_Bullet.cpp">
+      <Filter>Script\BulletScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CRoomEvent_4.cpp">
+      <Filter>Script\EventScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossRoomEvent.cpp">
+      <Filter>Script\EventScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlankBulletEffect.cpp">
+      <Filter>Script\EffectImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CMaidenDead.cpp">
+      <Filter>Script\EffectImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticleScript.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Default">
+      <UniqueIdentifier>{5af2d85a-2f9c-4937-9fa8-e14337ba7274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{ac27a7a1-23b1-4a47-8b9b-231c2e57487d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\MonsterScript">
+      <UniqueIdentifier>{ac4444b6-faba-4d0e-97f7-f93ffec72a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\PlayerScript">
+      <UniqueIdentifier>{d8136117-d56b-4905-bfef-13ae5ec9aab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\GunScript">
+      <UniqueIdentifier>{db8aee31-cae2-454e-905f-20fa4aa8e24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\BulletScript">
+      <UniqueIdentifier>{e9d1ac68-12ec-4dbd-9ec7-b87274d92054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\MovementScript">
+      <UniqueIdentifier>{b3b42739-c843-4385-a05c-c81ce43df9ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\AStarScript">
+      <UniqueIdentifier>{aa809c83-5071-4b4a-83cb-4e1a64cb1b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\BossScript">
+      <UniqueIdentifier>{ed73b952-83d2-44ac-8bed-4461000a8901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Item,WallScript">
+      <UniqueIdentifier>{c8bff747-cd0a-4574-8e1d-be3f8cb8eba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\EffectImage">
+      <UniqueIdentifier>{2d2cddf7-f8fa-48e1-b003-ebaa6ff84a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UIScript">
+      <UniqueIdentifier>{cd8b57b8-3170-4b52-bb26-13644aa8065c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\EventScript">
+      <UniqueIdentifier>{9c3a1bb6-2b5a-4a38-b729-bb72ac5e0854}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,65 @@
+#pragma once
+
+#include <vector>
+#include <string>
+
+enum class SCRIPT_TYPE
+{
+	AKSCRIPT,
+	ASTARSCRIPT,
+	BARRELSCRIPT,
+	BARRIER_BULLET,
+	BLANKBULLETEFFECT,
+	BLANKBULLETSCRIPT,
+	BOSSROOMEVENT,
+	BOSSSCRIPT,
+	BOSS_BULLET,
+	CAMERAMOVESCRIPT,
+	CHESTSCRIPT,
+	DOORSCRIPT,
+	GLOBESCRIPT,
+	HANDSCRIPT,
+	HEADGUNSCRIPT,
+	HEARTSCRIPT,
+	ICEGUNSCRIPT,
+	ICE_BULLET,
+	LAMPSSCRIPT,
+	MAGNUMSCRIPT,
+	MAIDENDEAD,
+	MAIDEN_BULLET,
+	MISSILESCRIPT,
+	MONSTERSCRIPT,
+	MON_BOOKLETS,
+	MON_BULLATS,
+	MON_CUBULON,
+	MON_GIGI,
+	MON_KIN,
+	MON_MAIDEN,
+	MOVEMENTSCRIPT,
+	M_BULLET,
+	PARTICLESCRIPT,
+	PLAYERSCRIPT,
+	PLAYERSTATESCRIPT,
+	P_BULLET,
+	ROOMEVENT_1,
+	ROOMEVENT_2,
+	ROOMEVENT_3,
+	ROOMEVENT_4,
+	SKULL_BULLET,
+	TABLESCRIPT,
+	WALLSCRIPT,
+	END,
+};
+
+using namespace std;
+
+class CScript;
+
+class CScriptMgr
+{
+public:
+	static void GetScriptInfo(vector<wstring>& _vec);
+	static CScript * GetScript(const wstring& _strScriptName);
+	static CScript * GetScript(UINT _iScriptType);
+	static const wchar_t * GetScriptName(CScript * _pScript);
+};
